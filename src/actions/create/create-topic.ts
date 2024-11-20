@@ -5,7 +5,7 @@ import { auth } from "@/auth"
 import { z } from "zod"
 import { db } from "@/db"
 import { redirect } from "next/navigation"
-import paths from "@/path"
+import paths from "@/paths"
 import { revalidatePath } from "next/cache"
 
 const createTopicSchema = z.object({

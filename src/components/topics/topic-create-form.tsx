@@ -3,7 +3,7 @@
 import { Button, Input, Popover, PopoverContent, PopoverTrigger, Textarea } from "@nextui-org/react";
 import * as actions from '@/actions'
 import { useActionState } from "react";
-import FormButton from "../common/form-button";
+import FormButton from "@/components/common/form-button";
 
 export default function TopicCreateForm() {
     const [formState, action] = useActionState(actions.createTopic, { errors: {} })

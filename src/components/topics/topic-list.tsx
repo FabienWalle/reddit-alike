@@ -1,5 +1,5 @@
 import { db } from "@/db";
-import paths from "@/path";
+import paths from "@/paths";
 import { Chip, Link } from "@nextui-org/react";
 
 
